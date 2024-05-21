@@ -1,0 +1,84 @@
+repo_name: naywintx/CustomerDB-Android
+report_id: 545eaaf5291d4caaf5318977481fd575
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:33:34+00:00'
+requested_by: schorschii
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/naywintx/CustomerDB-Android
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '32.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/naywintx/CustomerDB-Android/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Georg Sieber
+  last_updated_on: 2022-10-31 16:39:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/CustomerDB-Android
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/naywintx/CustomerDB-Android/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Georg Sieber
+  last_updated_on: 2020-06-15 17:14:02.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '12.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/naywintx/CustomerDB-Android/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Georg Sieber
+  last_updated_on: 2022-10-31 16:39:50.000000000 Z
+- name: com.opencsv:opencsv
+  description: A simple library for reading and writing CSV in Java
+  version: '4.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/CustomerDB-Android/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Georg Sieber
+  last_updated_on: 2022-10-31 16:39:50.000000000 Z
